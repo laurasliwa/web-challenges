@@ -1,0 +1,9 @@
+.cards {
+  background-color: var(--card-bg);
+  color: var(--card-text);
+  padding: 10px;
+  list-style: none;
+  border-radius: 15px;
+  max-width: 300px;
+  margin: 10px;
+}

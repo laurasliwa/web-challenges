@@ -1,0 +1,12 @@
+h2 {
+  display: inline;
+  padding: 10px;
+  color: var(--main-text);
+  background-color: var(--main-title-bg);
+}
+
+.homepage-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
