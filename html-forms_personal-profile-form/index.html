@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Personal Profile Form</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>Create your Personal Profile</h1>
+    <section>
+      <form aria-labelledby="title" aria-describedby="description">
+        <p>
+          We want to get to know you! Please enter your personal information.
+        </p>
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="first-name">First name</label>
+          <input name="first-name" type="text" id="first-name" required />
+          <label for="last-name">Last name</label>
+          <input name="last-name" id="last-name" required />
+          <label for="birthday">Date of birth</label>
+          <input type="date" name="birthday" id="birthday" required />
+        </fieldset>
+        <p>
+          Can you tell us a little bit more? We want to annoy you with unwanted
+          ads.
+        </p>
+        <fieldset>
+          <legend>Further information</legend>
+          <label for="favorite-color">Favourite Color:</label>
+          <input
+            type="color"
+            name="favorite-color"
+            id="favorite-color"
+            value="#E5430F"
+            required
+          />
+          <label for="favorite-pet">What's your favourite pet?</label>
+          <select name="favorite-pet" id="favorite-pet" required>
+            <option value="">--Please choose an option--</option>
+            <option value="snoopy">Snoopy</option>
+            <option value="smaug">Smaug</option>
+            <option value="dory">Dory</option>
+          </select>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
