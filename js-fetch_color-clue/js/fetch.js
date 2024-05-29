@@ -22,5 +22,6 @@ export async function fetchNewColor() {
   const data = await response.json();
 
   console.log(data);
+
   // --^-- your code here --^--
 }
